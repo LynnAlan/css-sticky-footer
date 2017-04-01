@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>css-sticky-footer</title>
+    <style media="screen">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+
+            height: 100%;
+        }
+
+        .container {
+            min-height: 100%;
+        }
+
+        .main {
+            padding-bottom: 200px;
+        }
+
+        .footer {
+            height: 200px;
+            margin-top: -200px;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <article class="main">
+            <ul>
+                <li>12</li>
+                <li>12</li>
+                <li>12</li>
+            </ul>
+        </article>
+    </div>
+    <footer class="footer"></footer>
+</body>
+
+</html>
